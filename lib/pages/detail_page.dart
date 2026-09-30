@@ -10,7 +10,7 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(pokemon.name)),
+      appBar: AppBar(title: Text(pokemon.name), backgroundColor: Colors.yellow),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

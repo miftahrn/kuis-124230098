@@ -29,6 +29,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Daftar Pokemon'),
+        backgroundColor: Colors.yellow,
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
