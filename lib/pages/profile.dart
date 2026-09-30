@@ -28,6 +28,10 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.yellow,
+                foregroundColor: Colors.black,
+              ),
               onPressed: () {
                 Navigator.pushReplacement(
                   context,

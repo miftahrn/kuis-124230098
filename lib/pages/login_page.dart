@@ -86,6 +86,10 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 24),
               FilledButton.icon(
+                style: FilledButton.styleFrom(
+                  backgroundColor: Colors.yellow,
+                  foregroundColor: Colors.black,
+                ),
                 onPressed: _login,
                 icon: const Icon(Icons.login),
                 label: const Text('Login'),
